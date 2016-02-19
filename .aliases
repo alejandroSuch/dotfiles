@@ -151,3 +151,6 @@ alias reload="exec $SHELL -l"
 #enable/disable IPv6
 alias ipv6off="networksetup -setv6off Wi-Fi"
 alias ipv6on="networksetup -setv6automatic Wi-Fi"
+
+#clear node cache
+alias nodecacheclear="npm cache clear"
