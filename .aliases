@@ -154,3 +154,6 @@ alias ipv6on="networksetup -setv6automatic Wi-Fi"
 
 #clear node cache
 alias nodecacheclear="npm cache clear"
+
+#delete Docker.qcow2 file (https://twitter.com/alejandro_such/status/795537845469450240)
+alias rmDockerQcow2=rm ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/Docker.qcow2
