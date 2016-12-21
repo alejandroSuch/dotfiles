@@ -466,3 +466,13 @@ find ~/Library/Application\ Support/Dock -name "*.db" -maxdepth 1 -delete
 for app in Finder Dock Mail Safari iTunes iCal Address\ Book SystemUIServer; do
     killall "$app" > /dev/null 2>&1
 done
+
+###############################################################################
+# UPDATE OPENSSL
+###############################################################################
+echo ""
+echo "Upgrading OpenSSL"
+echo ""
+echo ""
+echo "###############################################################################"
+brew update && brew install openssl && brew link --force openssl
